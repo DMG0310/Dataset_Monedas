@@ -1,0 +1,25 @@
+description: Ultralytics YOLO11n model trained on /content/aumentado/dataset_v10/data.yaml
+author: Ultralytics
+date: '2025-04-21T22:35:30.089903'
+version: 8.3.112
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 480
+- 480
+names:
+  0: '100'
+  1: '1000'
+  2: '200'
+  3: '50'
+  4: '500'
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: false
+  nms: false
+channels: 3
