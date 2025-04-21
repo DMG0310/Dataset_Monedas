@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['100', '1000', '200', '50', '500']
+
+roboflow:
+  workspace: diseo-2
+  project: monedastest
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/diseo-2/monedastest/dataset/1
