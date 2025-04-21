@@ -1,6 +1,0 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
-
-nc: 5
-names: ['100', '1000', '200', '50', '500']
